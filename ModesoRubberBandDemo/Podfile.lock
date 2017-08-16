@@ -1,0 +1,21 @@
+PODS:
+  - ModesoRubberBandScrollView (1.0.0)
+
+DEPENDENCIES:
+  - ModesoRubberBandScrollView (from `https://github.com/Modeso/ModesoRubberBandScrollView.git`)
+
+EXTERNAL SOURCES:
+  ModesoRubberBandScrollView:
+    :git: https://github.com/Modeso/ModesoRubberBandScrollView.git
+
+CHECKOUT OPTIONS:
+  ModesoRubberBandScrollView:
+    :commit: aedecfc42bf5383dc25ca84704a03a68c4546572
+    :git: https://github.com/Modeso/ModesoRubberBandScrollView.git
+
+SPEC CHECKSUMS:
+  ModesoRubberBandScrollView: 2387fa80931f6509042de595fab32ad99e1b62f7
+
+PODFILE CHECKSUM: 093a8d018e4a15d2caf53ba323233e5783a4af71
+
+COCOAPODS: 1.2.0

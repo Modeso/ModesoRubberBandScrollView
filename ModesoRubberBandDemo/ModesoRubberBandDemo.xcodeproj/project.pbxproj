@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48A89EBCD432A354F0D3F38A /* Pods_ModesoRubberBandDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B5A012B84A2972695D161C /* Pods_ModesoRubberBandDemo.framework */; };
+		A5ABDFE31F447581009EE663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABDFE21F447581009EE663 /* AppDelegate.swift */; };
+		A5ABDFE51F447581009EE663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABDFE41F447581009EE663 /* ViewController.swift */; };
+		A5ABDFE81F447581009EE663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ABDFE61F447581009EE663 /* Main.storyboard */; };
+		A5ABDFEA1F447581009EE663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5ABDFE91F447581009EE663 /* Assets.xcassets */; };
+		A5ABDFED1F447581009EE663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5ABDFEB1F447581009EE663 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5ABDFDF1F447581009EE663 /* ModesoRubberBandDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModesoRubberBandDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5ABDFE21F447581009EE663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5ABDFE41F447581009EE663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5ABDFE71F447581009EE663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5ABDFE91F447581009EE663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5ABDFEC1F447581009EE663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5ABDFEE1F447581009EE663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08FF4524C54D5F20836A361 /* Pods-ModesoRubberBandDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModesoRubberBandDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModesoRubberBandDemo/Pods-ModesoRubberBandDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E26EFF8B688E80F02A4DB0F8 /* Pods-ModesoRubberBandDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModesoRubberBandDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModesoRubberBandDemo/Pods-ModesoRubberBandDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F7B5A012B84A2972695D161C /* Pods_ModesoRubberBandDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModesoRubberBandDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5ABDFDC1F447581009EE663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A89EBCD432A354F0D3F38A /* Pods_ModesoRubberBandDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839F2C2140AA662CEBF753F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D08FF4524C54D5F20836A361 /* Pods-ModesoRubberBandDemo.debug.xcconfig */,
+				E26EFF8B688E80F02A4DB0F8 /* Pods-ModesoRubberBandDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5ABDFD61F447581009EE663 = {
+			isa = PBXGroup;
+			children = (
+				A5ABDFE11F447581009EE663 /* ModesoRubberBandDemo */,
+				A5ABDFE01F447581009EE663 /* Products */,
+				839F2C2140AA662CEBF753F2 /* Pods */,
+				B6E9CDA572B79B29E3D42985 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5ABDFE01F447581009EE663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABDFDF1F447581009EE663 /* ModesoRubberBandDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5ABDFE11F447581009EE663 /* ModesoRubberBandDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABDFE21F447581009EE663 /* AppDelegate.swift */,
+				A5ABDFE41F447581009EE663 /* ViewController.swift */,
+				A5ABDFE61F447581009EE663 /* Main.storyboard */,
+				A5ABDFE91F447581009EE663 /* Assets.xcassets */,
+				A5ABDFEB1F447581009EE663 /* LaunchScreen.storyboard */,
+				A5ABDFEE1F447581009EE663 /* Info.plist */,
+			);
+			path = ModesoRubberBandDemo;
+			sourceTree = "<group>";
+		};
+		B6E9CDA572B79B29E3D42985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B5A012B84A2972695D161C /* Pods_ModesoRubberBandDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5ABDFDE1F447581009EE663 /* ModesoRubberBandDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5ABDFF11F447581009EE663 /* Build configuration list for PBXNativeTarget "ModesoRubberBandDemo" */;
+			buildPhases = (
+				AD82D16FDED010972911697B /* [CP] Check Pods Manifest.lock */,
+				A5ABDFDB1F447581009EE663 /* Sources */,
+				A5ABDFDC1F447581009EE663 /* Frameworks */,
+				A5ABDFDD1F447581009EE663 /* Resources */,
+				34C8DB421956D5D264530616 /* [CP] Embed Pods Frameworks */,
+				2EF78B1B0A5ED9BCE43FC65E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModesoRubberBandDemo;
+			productName = ModesoRubberBandDemo;
+			productReference = A5ABDFDF1F447581009EE663 /* ModesoRubberBandDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5ABDFD71F447581009EE663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Modeso;
+				TargetAttributes = {
+					A5ABDFDE1F447581009EE663 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XP9UK5V4RA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A5ABDFDA1F447581009EE663 /* Build configuration list for PBXProject "ModesoRubberBandDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5ABDFD61F447581009EE663;
+			productRefGroup = A5ABDFE01F447581009EE663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5ABDFDE1F447581009EE663 /* ModesoRubberBandDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5ABDFDD1F447581009EE663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ABDFED1F447581009EE663 /* LaunchScreen.storyboard in Resources */,
+				A5ABDFEA1F447581009EE663 /* Assets.xcassets in Resources */,
+				A5ABDFE81F447581009EE663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF78B1B0A5ED9BCE43FC65E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModesoRubberBandDemo/Pods-ModesoRubberBandDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34C8DB421956D5D264530616 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ModesoRubberBandDemo/Pods-ModesoRubberBandDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD82D16FDED010972911697B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5ABDFDB1F447581009EE663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ABDFE51F447581009EE663 /* ViewController.swift in Sources */,
+				A5ABDFE31F447581009EE663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5ABDFE61F447581009EE663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5ABDFE71F447581009EE663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5ABDFEB1F447581009EE663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5ABDFEC1F447581009EE663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5ABDFEF1F447581009EE663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5ABDFF01F447581009EE663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5ABDFF21F447581009EE663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08FF4524C54D5F20836A361 /* Pods-ModesoRubberBandDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XP9UK5V4RA;
+				INFOPLIST_FILE = ModesoRubberBandDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.modeso.ModesoRubberBandDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A5ABDFF31F447581009EE663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26EFF8B688E80F02A4DB0F8 /* Pods-ModesoRubberBandDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XP9UK5V4RA;
+				INFOPLIST_FILE = ModesoRubberBandDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ch.modeso.ModesoRubberBandDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5ABDFDA1F447581009EE663 /* Build configuration list for PBXProject "ModesoRubberBandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5ABDFEF1F447581009EE663 /* Debug */,
+				A5ABDFF01F447581009EE663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5ABDFF11F447581009EE663 /* Build configuration list for PBXNativeTarget "ModesoRubberBandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5ABDFF21F447581009EE663 /* Debug */,
+				A5ABDFF31F447581009EE663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5ABDFD71F447581009EE663 /* Project object */;
+}
