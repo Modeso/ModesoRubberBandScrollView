@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ModesoRubberBandScrollView:
-    :commit: 3099f3446b137f53b24b72189a61088ac576bd84
+    :commit: c7849eb9d025409a46229c2a2f285af8f60df1d3
     :git: https://github.com/Modeso/ModesoRubberBandScrollView.git
 
 SPEC CHECKSUMS:
