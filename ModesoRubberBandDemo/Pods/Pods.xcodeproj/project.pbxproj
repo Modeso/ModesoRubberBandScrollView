@@ -11,10 +11,10 @@
 		6AD41315AA80C95FC26CCB5BEA4D9DFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6AE13CA4479E771B6644D07A6B44E254 /* Pods-ModesoRubberBandDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 962E784475F0D91FCA2E1065CE0C2DCD /* Pods-ModesoRubberBandDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76F4173646282775A45B3C27F9019D6D /* Pods-ModesoRubberBandDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F73450F38A741CF30280C69F6D38A3E6 /* Pods-ModesoRubberBandDemo-dummy.m */; };
-		7CFB938A876DBB8B07FFCBAF6038A77A /* ModesoRubberBandScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FACF2B1C27D94BFF740430130FD90D41 /* ModesoRubberBandScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF37488F035AC02B9B58C1F5660EE5C /* ModesoRubberBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF50DD54F45FF6A4BD59BAC7F322B3 /* ModesoRubberBand.swift */; };
-		DCBD525525637EDBF7A83F9575221107 /* ModesoRubberBandScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E54199D977747E0664E33A521C3701 /* ModesoRubberBandScrollView-dummy.m */; };
-		EFBB4071C919C75A5F23F92A572FC1FC /* ModesoRubberBand.swift in Resources */ = {isa = PBXBuildFile; fileRef = 18DF50DD54F45FF6A4BD59BAC7F322B3 /* ModesoRubberBand.swift */; };
+		7CFB938A876DBB8B07FFCBAF6038A77A /* ModesoRubberBandScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7264C60D03D0761F603594C318576F /* ModesoRubberBandScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A716A069F77CC40AAA4676F0DDE1EBF /* ModesoRubberBandScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDC77EDA8AD9C799283B7D05DABB5C /* ModesoRubberBandScrollView.swift */; };
+		966EB54F66CE2E4BACB55F677E60651F /* ModesoRubberBandScrollView.swift in Resources */ = {isa = PBXBuildFile; fileRef = 95CDC77EDA8AD9C799283B7D05DABB5C /* ModesoRubberBandScrollView.swift */; };
+		9CAFCF500E6B81460A3ECECC42504F79 /* ModesoRubberBandScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BD409A8E442487389980DD86300FCD /* ModesoRubberBandScrollView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,26 +29,26 @@
 
 /* Begin PBXFileReference section */
 		03C5D255FF617D482FA2B754F63AD707 /* Pods-ModesoRubberBandDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ModesoRubberBandDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		18DF50DD54F45FF6A4BD59BAC7F322B3 /* ModesoRubberBand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModesoRubberBand.swift; path = ModesoRubberBandScrollView/Sources/ModesoRubberBand.swift; sourceTree = "<group>"; };
 		21E6D77CDED0E738EEB3307F3FB41DEF /* Pods-ModesoRubberBandDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModesoRubberBandDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3097B6D0052F8E360480A60403D61B14 /* ModesoRubberBandScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModesoRubberBandScrollView-prefix.pch"; sourceTree = "<group>"; };
 		49D265CF9745D6B6CEB96263D52C9EBD /* Pods-ModesoRubberBandDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModesoRubberBandDemo-resources.sh"; sourceTree = "<group>"; };
-		5F44A2A0F62DB7A9A264B23610E36763 /* ModesoRubberBandScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModesoRubberBandScrollView.xcconfig; sourceTree = "<group>"; };
+		514C998E9C6523C99143BE2560BC9585 /* ModesoRubberBandScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ModesoRubberBandScrollView.modulemap; sourceTree = "<group>"; };
 		60171A3669CAC724C7497FFD5777598B /* Pods-ModesoRubberBandDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ModesoRubberBandDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		65FBDA3D30DDB38041EBA87283D8F8A1 /* Pods_ModesoRubberBandDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ModesoRubberBandDemo.framework; path = "Pods-ModesoRubberBandDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4E539502B4B70E773A3D3F93ACDD56 /* ModesoRubberBandScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModesoRubberBandScrollView-prefix.pch"; sourceTree = "<group>"; };
+		77BD409A8E442487389980DD86300FCD /* ModesoRubberBandScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModesoRubberBandScrollView-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94284CD376518E7E4E9E7AF58A6E1CFE /* Pods-ModesoRubberBandDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ModesoRubberBandDemo.modulemap"; sourceTree = "<group>"; };
+		95CDC77EDA8AD9C799283B7D05DABB5C /* ModesoRubberBandScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModesoRubberBandScrollView.swift; path = ModesoRubberBandScrollView/Sources/ModesoRubberBandScrollView.swift; sourceTree = "<group>"; };
 		962E784475F0D91FCA2E1065CE0C2DCD /* Pods-ModesoRubberBandDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModesoRubberBandDemo-umbrella.h"; sourceTree = "<group>"; };
+		B02ED633C15059ACEA70C4DE2AD5A08D /* ModesoRubberBandScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModesoRubberBandScrollView.xcconfig; sourceTree = "<group>"; };
 		B64B679CE4F89801C694535D744EAF33 /* ModesoRubberBandScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ModesoRubberBandScrollView.framework; path = ModesoRubberBandScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17683CE1B38886118957E4E158AF81A /* Pods-ModesoRubberBandDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ModesoRubberBandDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E1E54199D977747E0664E33A521C3701 /* ModesoRubberBandScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModesoRubberBandScrollView-dummy.m"; sourceTree = "<group>"; };
-		E6828EFCB8982DE4E7FA63AFC3E9CFAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B7B28E436F0A5546545F10B2797870 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7264C60D03D0761F603594C318576F /* ModesoRubberBandScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModesoRubberBandScrollView-umbrella.h"; sourceTree = "<group>"; };
 		E7D241E3AA734E0B6A59BC8C4EDCBB40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB077D10D320DE35967F4438FABBE2C9 /* ModesoRubberBandScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ModesoRubberBandScrollView.modulemap; sourceTree = "<group>"; };
 		EC7547A5EE22914087C6B18A6AFF5B5C /* Pods-ModesoRubberBandDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModesoRubberBandDemo-frameworks.sh"; sourceTree = "<group>"; };
 		F73450F38A741CF30280C69F6D38A3E6 /* Pods-ModesoRubberBandDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ModesoRubberBandDemo-dummy.m"; sourceTree = "<group>"; };
-		FACF2B1C27D94BFF740430130FD90D41 /* ModesoRubberBandScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModesoRubberBandScrollView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,29 +71,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E2782DA3794C932AEDCF2B3707837AE /* Support Files */ = {
+		3E70A021157066C16B2D59AA1E1074B2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6828EFCB8982DE4E7FA63AFC3E9CFAB /* Info.plist */,
-				EB077D10D320DE35967F4438FABBE2C9 /* ModesoRubberBandScrollView.modulemap */,
-				5F44A2A0F62DB7A9A264B23610E36763 /* ModesoRubberBandScrollView.xcconfig */,
-				E1E54199D977747E0664E33A521C3701 /* ModesoRubberBandScrollView-dummy.m */,
-				3097B6D0052F8E360480A60403D61B14 /* ModesoRubberBandScrollView-prefix.pch */,
-				FACF2B1C27D94BFF740430130FD90D41 /* ModesoRubberBandScrollView-umbrella.h */,
+				D4B7B28E436F0A5546545F10B2797870 /* Info.plist */,
+				514C998E9C6523C99143BE2560BC9585 /* ModesoRubberBandScrollView.modulemap */,
+				B02ED633C15059ACEA70C4DE2AD5A08D /* ModesoRubberBandScrollView.xcconfig */,
+				77BD409A8E442487389980DD86300FCD /* ModesoRubberBandScrollView-dummy.m */,
+				6F4E539502B4B70E773A3D3F93ACDD56 /* ModesoRubberBandScrollView-prefix.pch */,
+				DF7264C60D03D0761F603594C318576F /* ModesoRubberBandScrollView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ModesoRubberBandScrollView";
-			sourceTree = "<group>";
-		};
-		574657CF5783BB79C66DF592E5E14D47 /* ModesoRubberBandScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				18DF50DD54F45FF6A4BD59BAC7F322B3 /* ModesoRubberBand.swift */,
-				9B26A48C53977BB70D5824A58D25F29D /* Resources */,
-				0E2782DA3794C932AEDCF2B3707837AE /* Support Files */,
-			);
-			name = ModesoRubberBandScrollView;
-			path = ModesoRubberBandScrollView;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -115,6 +104,13 @@
 			);
 			sourceTree = "<group>";
 		};
+		8829DCD62FD559BC011E86820D612D81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9445FD791D86132F638555C19DED1A7D /* Pods-ModesoRubberBandDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +129,6 @@
 			path = "Target Support Files/Pods-ModesoRubberBandDemo";
 			sourceTree = "<group>";
 		};
-		9B26A48C53977BB70D5824A58D25F29D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +140,7 @@
 		C402401C0A6324C50E8C56BF493BFA29 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				574657CF5783BB79C66DF592E5E14D47 /* ModesoRubberBandScrollView */,
+				FA9B926B233251DA9C365F2A6B9F1B03 /* ModesoRubberBandScrollView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -171,6 +160,17 @@
 				9445FD791D86132F638555C19DED1A7D /* Pods-ModesoRubberBandDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FA9B926B233251DA9C365F2A6B9F1B03 /* ModesoRubberBandScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				95CDC77EDA8AD9C799283B7D05DABB5C /* ModesoRubberBandScrollView.swift */,
+				8829DCD62FD559BC011E86820D612D81 /* Resources */,
+				3E70A021157066C16B2D59AA1E1074B2 /* Support Files */,
+			);
+			name = ModesoRubberBandScrollView;
+			path = ModesoRubberBandScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +199,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DA9F84B51AEED11A0DA87F5CAF96A26 /* Build configuration list for PBXNativeTarget "ModesoRubberBandScrollView" */;
 			buildPhases = (
-				5075BB890162CA5C3CA7B737C65A9B53 /* Sources */,
+				8EB53262114AAC061FFE64A7AA7CF74C /* Sources */,
 				EF52276B5DECC5311EEFEDFAEA06B79B /* Frameworks */,
-				EB445D5058EB7C6E5AD3C3C5903F62ED /* Resources */,
+				679DC69176C1239B4BC288E498E699C1 /* Resources */,
 				E7D824EB88E18D736FF09815FB2F31A8 /* Headers */,
 			);
 			buildRules = (
@@ -259,23 +259,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EB445D5058EB7C6E5AD3C3C5903F62ED /* Resources */ = {
+		679DC69176C1239B4BC288E498E699C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFBB4071C919C75A5F23F92A572FC1FC /* ModesoRubberBand.swift in Resources */,
+				966EB54F66CE2E4BACB55F677E60651F /* ModesoRubberBandScrollView.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5075BB890162CA5C3CA7B737C65A9B53 /* Sources */ = {
+		8EB53262114AAC061FFE64A7AA7CF74C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAF37488F035AC02B9B58C1F5660EE5C /* ModesoRubberBand.swift in Sources */,
-				DCBD525525637EDBF7A83F9575221107 /* ModesoRubberBandScrollView-dummy.m in Sources */,
+				9CAFCF500E6B81460A3ECECC42504F79 /* ModesoRubberBandScrollView-dummy.m in Sources */,
+				8A716A069F77CC40AAA4676F0DDE1EBF /* ModesoRubberBandScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 		};
 		33686CEB0E92ED252E874006A09CB16B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F44A2A0F62DB7A9A264B23610E36763 /* ModesoRubberBandScrollView.xcconfig */;
+			baseConfigurationReference = B02ED633C15059ACEA70C4DE2AD5A08D /* ModesoRubberBandScrollView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -368,7 +368,7 @@
 		};
 		5FB930171E83CF33EE3B55FA34BF0F4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F44A2A0F62DB7A9A264B23610E36763 /* ModesoRubberBandScrollView.xcconfig */;
+			baseConfigurationReference = B02ED633C15059ACEA70C4DE2AD5A08D /* ModesoRubberBandScrollView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
