@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A5ABDFCD1F447180009EE663 /* ModesoRubberBandScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5ABDFCB1F447180009EE663 /* ModesoRubberBandScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5ABDFD51F447381009EE663 /* ModesoRubberBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABDFD41F447381009EE663 /* ModesoRubberBand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A5ABDFC81F447180009EE663 /* ModesoRubberBandScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModesoRubberBandScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5ABDFCB1F447180009EE663 /* ModesoRubberBandScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModesoRubberBandScrollView.h; sourceTree = "<group>"; };
 		A5ABDFCC1F447180009EE663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ABDFD41F447381009EE663 /* ModesoRubberBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModesoRubberBand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,11 +48,20 @@
 		A5ABDFCA1F447180009EE663 /* ModesoRubberBandScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				A5ABDFD31F447381009EE663 /* Sources */,
 				A5ABDFCB1F447180009EE663 /* ModesoRubberBandScrollView.h */,
 				A5ABDFCC1F447180009EE663 /* Info.plist */,
 			);
 			path = ModesoRubberBandScrollView;
 			sourceTree = "<group>";
+		};
+		A5ABDFD31F447381009EE663 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABDFD41F447381009EE663 /* ModesoRubberBand.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -132,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5ABDFD51F447381009EE663 /* ModesoRubberBand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
