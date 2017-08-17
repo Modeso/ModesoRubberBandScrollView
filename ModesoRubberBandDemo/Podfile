@@ -6,6 +6,7 @@ target 'ModesoRubberBandDemo' do
   use_frameworks!
 
   # Pods for ModesoRubberBandDemo
-pod 'ModesoRubberBandScrollView', :git => 'https://github.com/Modeso/ModesoRubberBandScrollView.git'
+pod 'ModesoRubberBandScrollView', path: './../'
 pod 'ModesoNavigationTabs', :git => 'https://github.com/Modeso/ModesoNavigationTabs.git'
+
 end
