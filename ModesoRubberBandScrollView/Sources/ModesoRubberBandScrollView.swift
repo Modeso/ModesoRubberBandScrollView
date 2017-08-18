@@ -135,7 +135,6 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
         previousOffsetY = scrollView.contentOffset.y
         force = scrollSpeed/15.0
         translation = abs(scrollView.panGestureRecognizer.translation(in: scrollView).y)
-        print("Speed \(scrollSpeed) Force \(force) fulldistance \(translation)" )
     }
     
     func stretchRubberBand(_ scrollView: UIScrollView) {
