@@ -92,6 +92,7 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
     var scrollSpeed: CGFloat = 0.0
     var force: CGFloat = 0.0
     var translation: CGFloat = 0.0
+    var factor: CGFloat = 0.4
     
     init(_ receiver: UIScrollViewDelegate?) {
         self.receiver = receiver
@@ -132,7 +133,7 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
     func evaluateForce(_ scrollView: UIScrollView) {
         scrollSpeed = min(abs(scrollView.contentOffset.y - previousOffsetY),99)
         previousOffsetY = scrollView.contentOffset.y
-        force = 1.0//max((scrollSpeed)/100.0,0.2)
+        force = scrollSpeed/15.0
         translation = abs(scrollView.panGestureRecognizer.translation(in: scrollView).y)
         print("Speed \(scrollSpeed) Force \(force) fulldistance \(translation)" )
     }
@@ -153,7 +154,7 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
     
     fileprivate func updateConstraintsOfViewsBelow() {
         let count = rubberBandViews.getBelow().count
-        let changeOfConstant = (force * translation/10) / CGFloat(count)
+        let changeOfConstant = factor * ((force * translation/10) / CGFloat(count))
         
         for i in 0..<count {
             let rubberBand = rubberBandViews.getBelow()[i]
@@ -162,22 +163,27 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
                 continue
             }
             upperConstraint.constant = upperConstraint.constant + changeOfConstant * distanceVariation
-            rubberBandViews.views.last?.lowerConstraint?.constant -= changeOfConstant * distanceVariation
+           
+            if i == count-1 {
+                guard let lowerConstraint = rubberBand.lowerConstraint else {
+                    continue
+                }
+                lowerConstraint.constant = lowerConstraint.constant + changeOfConstant * (distanceVariation + 0.25)
+            }
         }
     }
     
     fileprivate func updateConstraintsOfViewsAbove() {
         let count = rubberBandViews.getAbove().count
-        let changeOfConstant = (force * translation/10) / CGFloat(count)
+        let changeOfConstant = factor * ((force * translation/10) / CGFloat(count))
         
         for i in 0..<count {
             let rubberBand = rubberBandViews.getAbove()[i]
-            let distanceVariation =  (1.0 - CGFloat(count - i) / CGFloat(count))
+            let distanceVariation =  max((1.0 - CGFloat(count - i) / CGFloat(count)),0.25)
             guard let upperConstraint = rubberBand.upperConstraint else {
                 continue
             }
             upperConstraint.constant = upperConstraint.constant + changeOfConstant * distanceVariation
-            rubberBandViews.views.last?.lowerConstraint?.constant  -= changeOfConstant * distanceVariation
         }
     }
     
@@ -224,7 +230,7 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
             return
         }
         rubberBandLastView.lowerConstraint?.constant  = rubberBandLastView.lowerConstraintConstant
-        UIView.animate(withDuration: 0.15, delay: 0.075, options: UIViewAnimationOptions.curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.15, delay: 0.0, options: UIViewAnimationOptions.curveEaseOut, animations: {
             scrollView.layoutIfNeeded()
         }, completion: { (ended) in
             if (ended) {}
@@ -270,7 +276,13 @@ class ModesoRubberBandDelegate: NSObject, UIScrollViewDelegate  {
                     rubberBandView?.lowerConstraint = constraint
                     rubberBandView?.lowerConstraintConstant = constraint.constant
                 }
+                let rubberBandView2: ModesoRBView? = rubberBandViews.getView(constraint.secondItem as? UIView)
+                if rubberBandView2 != nil {
+                    rubberBandView2?.lowerConstraint = constraint
+                    rubberBandView2?.lowerConstraintConstant = constraint.constant
+                }
             }
+            
         }
     }
 }
